@@ -1,0 +1,15 @@
+
+
+pages/
+components/
+layouts/
+public/ , public/img/myImg.jpg is accessed as "/img/myImg.jpg"
+styles in the assets directory
+head => nuxt.config.txt=>app:{
+    head:{
+        link:[{}]
+    }
+}
+
+components:
+<NuxtLink />
